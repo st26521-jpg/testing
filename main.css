@@ -1,60 +1,59 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
-.main{
+main {
+    background: url(https://th.bing.com/th/id/R.c0e47abd88b77efb94be9b41f00cfed4?rik=yz0PjWu8q%2fBxzQ&pid=ImgRaw&r=0);
     width: 100%;
+    background-position: center;
+    background-size: cover;
     height:100vh;
-}
-
-
-.nav {
-    width: 1200px;
-    height: 75px;
-    margin: auto;
-}
-.icon {
-    float: left;
-    width: 200px;
-    height: 70px;
-}
-.logo {
-    font-size: 25px;
     padding: 20px;
-    float: left;
-    padding-top: 10px;
-    font-size: arial;
+    margin-top: 5px;
+
+
 }
-.menu {
-    width: 400px;
-    height: 70px;
-    float: left;
+
+
+img {
+    float:left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+header{
+    text-align: center;
+    background-color: lightgray;
+    font-size: 40px;
+    padding: 50px;
+    border-color:blue;
+    border-style:groove;
+}
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-style:groove;
+    border-color: gray;
+    margin-top: 5px;
 }
 ul {
-    display: flex;
-    float: left;
-    justify-content: center;
-    text-align: center;
+    display:flex;
 }
 ul li {
     list-style: none;
-    margin-left: 62px;
-    margin: 27px;
-    font-size: 18px;
 }
 ul li a {
     text-decoration: none;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    transition: 0.2s ease-in-out;
+    margin-left: 300px;
+    font-size: 20px;
+  
 }
 ul li a:hover {
-    color:blue;
+    color:darkred;
     text-decoration: overline;
 
 }
-a {
-    color: black;
-    text-decoration: none;
+
+footer{
+    padding:50px;
+    text-align: center;
+    background-color:black;
+    color:whitesmoke;
 }
