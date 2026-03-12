@@ -3,7 +3,8 @@
     <head>
         <link rel="stylesheet" href="main.css">
         <title> My Website  </title>
-    </head>
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <body>
         <logo><a href="index.html"><img src="images/logo.png" width="100px" height="100px"></a></logo> 
         <header>
@@ -20,6 +21,40 @@
         </nav>
         <main>
 
+             <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/logo.png" alt=""></div>
+                    <div class="swiper-slide"><img src="images/logo.png" alt=""></div>
+                    <div class="swiper-slide"><img src="images/logo.png" alt=""></div>
+                    <div class="swiper-slide"><img src="images/logo.png" alt=""></div>
+                    <div class="swiper-slide"><img src="images/logo.png" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+         <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            });
+        </script>
         </main>
         <footer>
 
