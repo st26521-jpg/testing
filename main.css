@@ -1,21 +1,13 @@
-main {
-    background: url(https://th.bing.com/th/id/R.c0e47abd88b77efb94be9b41f00cfed4?rik=yz0PjWu8q%2fBxzQ&pid=ImgRaw&r=0);
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    height:100vh;
-    padding: 20px;
-    margin-top: 5px;
 
-
-}
-
-img {
+logo img {
     float:left;
     margin-top: 30px;
     margin-left: 20px;
 }
 header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
     text-align: center;
     background-color: lightgray;
     font-size: 40px;
@@ -23,7 +15,9 @@ header{
     border-color:blue;
     border-style:groove;
 }
-
+header h {
+    color:black;
+}
 nav{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -48,19 +42,25 @@ ul li a:hover {
     text-decoration: overline;
 
 }
-
-footer{
-    padding:50px;
-    text-align: center;
-    background-color:black;
-    color:whitesmoke;
-    width:100%;
-}
 a {
     color:black;
     text-decoration: none;
 }
+nav a {
+    background-color: whitesmoke;
+    padding:15px;
+    border-radius: 50%;
+}
+main {
+    background: url(https://th.bing.com/th/id/R.c0e47abd88b77efb94be9b41f00cfed4?rik=yz0PjWu8q%2fBxzQ&pid=ImgRaw&r=0);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    padding: 20px;
+    margin-top: 5px;
 
+}
 .mySwiper {
     max-width: 700px;
     margin: 0 auto;
@@ -71,3 +71,11 @@ body main img {
     object-fit: cover;
 
 } 
+
+footer{
+    padding:50px;
+    text-align: center;
+    background-color:black;
+    color:whitesmoke;
+    width:100%;
+}
